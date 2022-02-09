@@ -12,7 +12,7 @@ include "init/tools.php";
 include "init/functions.php";
 include "init/init.php";
 include "version.php";
-
+echo "testing";
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ include "version.php";
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
 
-  <title>Direwolf Dashboard for <?php echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
+  <title>Direwolf Dashboard for <?php //echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="include/bootstrap.css" 
@@ -71,7 +71,7 @@ include "version.php";
     </div>
   </div>
   //put the log read here
- <?php include "log.php"; ?>
+ <?php //include "log.php"; ?>
   <footer class="footer-copyright">
     <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
       <div class="container-fluid">
