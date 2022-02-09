@@ -27,7 +27,7 @@ include "init/logs.php";
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
 
-  <title>SvxLink Dashboard for <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></title>
+  <title>Direwolf Dashboard for <?php echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="include/bootstrap.css"
@@ -73,7 +73,7 @@ include "init/logs.php";
           <?php
             $lastReload = new DateTime();
             $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
-              echo "SvxLink Dashboard v.".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+              echo "Direwolf Dashboard v.".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
             $time = microtime();
             $time = explode(' ', $time);
             $time = $time[1] + $time[0];
