@@ -26,7 +26,7 @@ include "version.php";
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
 
-  <title>SvxLink Dashboard for <?php echo getConfigItem(SVXLOGICSECTION, "CALLSIGN", $configs); ?></title>
+  <title>Direwolf Dashboard for <?php echo getConfigItem("CALLSIGN", $configs); ?></title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="include/bootstrap.css" 
@@ -70,26 +70,7 @@ include "version.php";
       ?>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-4">
-        <?php include "include/txstatus.php"; ?>
-      </div>
-      <div class="col-8">
-        <?php include "include/status.php"; ?>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-    <?php include "include/tgstatus.php"; ?>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <?php include "include/echolink.php"; ?>
-  </div>
+  //put the log read here
  
   <footer class="footer-copyright">
     <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
