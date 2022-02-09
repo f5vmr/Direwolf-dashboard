@@ -13,6 +13,6 @@ include "init/init.php";
 include "version.php";
 */
 echo "test1";
-echo $LOGPATH;
+echo $DWLOGPATH;
 
 ?>
