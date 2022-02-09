@@ -1,4 +1,3 @@
-//declaration of all variables.
 <?php
 date_default_timezone_set("UK/London");
 define("CONTACTEMAIL", "g4nab.ne63@gmail.com");
