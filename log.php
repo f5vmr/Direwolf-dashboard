@@ -12,6 +12,7 @@ include "init/tools.php";
 include "init/functions.php";
 include "init/init.php";
 include "version.php";
+include "init/logs.php";
 
 ?>
 
