@@ -79,7 +79,7 @@ include "version.php";
           <?php
             $lastReload = new DateTime();
             $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
-              echo "SvxLink Dashboard v.".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+              echo "Direwolf Dashboard v.".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
             $time = microtime();
             $time = explode(' ', $time);
             $time = $time[1] + $time[0];
