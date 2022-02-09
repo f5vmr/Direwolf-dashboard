@@ -19,7 +19,7 @@ echo "testing";
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!--
 <head>
 
   <meta charset="utf-8">
@@ -30,14 +30,14 @@ echo "testing";
 
   <title>Direwolf Dashboard for <?php //echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
 
-  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="include/bootstrap.css" 
 
 </head>
-
+  -->
+<!--
 <body>
 
-  <!-- Navigation -->
+  <!-- Navigation 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
       <a class="navbar-brand" href="#">Direwolf Dashboard - <?php// echo getConfigItem(MYCALL, "MYCALL", $configs); ?></a>
