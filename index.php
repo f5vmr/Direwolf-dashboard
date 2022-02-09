@@ -12,8 +12,8 @@ include "init/tools.php";
 include "init/functions.php";
 include "init/init.php";
 include "version.php";
-include "disk.php";
-include "sysinfo.php";
+include "init/disk.php";
+include "init/sysinfo.php";
 echo "testing";
 ?>
 
