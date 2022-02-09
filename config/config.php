@@ -6,6 +6,7 @@ define("LOGPATH", "/var/log");
 define("LOGPREFIX", "dw-start.log");
 define("DWCONFPATH", "/etc/direwolf");
 define("DWCONFFILENAME", "direwolf.conf");
+define("MYCALL", "MYCALL");
 define("DWLINKPATH", "/usr/bin");
 define("TIMEZONE", "UK/London");
 define("REFRESHAFTER", "10");
