@@ -2,7 +2,7 @@
 ?>
   <div class="card">
     <div class="card-header text-center">
-      SvxLink System Logs (<?php echo TIMEZONE; ?>) <br /> Latest log line first | Screen refreshes every <strong> <?php echo REFRESHAFTER; ?> </strong> seconds
+      Direwolf System Logs (<?php echo TIMEZONE; ?>) <br /> Latest log line first | Screen refreshes every <strong> <?php echo REFRESHAFTER; ?> </strong> seconds
     </div>
     <pre class="pre-scrollable" style="max-height: 80vh">
       <code>
