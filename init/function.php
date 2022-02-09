@@ -11,7 +11,7 @@ function getDWConfig() {
         }
         return $conf;
 }
-
+/*
 function getConfigItem($section, $key, $configs) {
         // retrieves the corresponding config stanza within a [section]
         $sectionpos = array_search("[" . $section . "]", $configs) + 1;
@@ -35,7 +35,7 @@ function getGitVersion(){
 		return 'GitID unknown';
 	}
 }
-
+*/
 function getDWLog() {
 	// retrieves the current Direwolf log file
         $logLines = array();
