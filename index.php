@@ -57,7 +57,7 @@ include "include/functions.php";
       ?>
     </div>
   </div>
-  <div class="container-fluid">
+<!--  <div class="container-fluid">
     <div class="row">
       <div class="col-4">
         
@@ -76,7 +76,7 @@ include "include/functions.php";
   </div>
   <div class="container-fluid">
     
-  </div>
+  </div>-->
  
   <footer class="footer-copyright">
     <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
