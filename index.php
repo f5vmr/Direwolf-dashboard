@@ -40,20 +40,14 @@ include "include/functions.php";
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>          
-          <li class="nav-item">
-            <a class="nav-link" href="mailto:g4nab.ne63@gmail.com">Contact</a>
-          </li>
+        <ul class="navbar-nav ml-auto">      
+          
         </ul>
       </div
     </div>
   </nav>
 
   <!-- Page Content -->
-  <?php checkSetup(); ?>
   <div class="container-fluid">
     <div class="row">
       <?php
