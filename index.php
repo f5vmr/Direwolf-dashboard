@@ -25,7 +25,7 @@ include "include/sysinfo.php";
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
-  <title>Direwolf Dashboard<?php //echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
+  <title>Direwolf Dashboard</title>
   <link rel="stylesheet" href="include/bootstrap.css" 
 </head>
 </html>
