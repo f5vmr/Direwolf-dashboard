@@ -8,11 +8,11 @@ header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 // do not touch these includes!
 include "config/config.php";
-include "init/tools.php";
-include "init/functions.php";
-include "init/init.php";
+include "include/tools.php";
+include "include/functions.php";
+include "include/init.php";
 include "version.php";
-include "init/logs.php";
+include "include/logs.php";
 
 ?>
 
