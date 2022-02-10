@@ -22,7 +22,7 @@ echo "test1";
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
+  <meta http-equiv="refresh" content="<?php// echo REFRESHAFTER?>">
   <title>Direwolf Dashboard for APRS<?php //echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
   <link rel="stylesheet" href="include/bootstrap.css" 
 </head>
@@ -55,7 +55,7 @@ echo "test1";
   </nav>
 -->
   <!-- Page Content -->
-  <?php checkSetup(); ?>
+  <?php //checkSetup(); ?>
   <div class="container-fluid">
     <div class="row">
       <?php
