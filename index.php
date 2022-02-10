@@ -25,8 +25,7 @@ include "include/tools.php";
   print "tools\n";
 include "include/functions.php";
   print "functions\n";
-include "include/init.php";
-  print "initialise\n";
+
 //include "version.php";
 
 ?>
@@ -87,6 +86,7 @@ include "include/init.php";
       <?php
         include "include/sysinfo.php";
         include "include/disk.php";
+        include "include/init.php";
       ?>
     </div>
   </div>
