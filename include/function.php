@@ -11,21 +11,23 @@ function getDWConfig() {
         }
         return $conf;
 }
-/*
-function getConfigItem($section, $configs) {
-        // retrieves the corresponding callsign        
-	$sectionpos = array_search($section, $configs) + 1;
+
+
+function getConfigItem($section, $key, $configs) {
+        // retrieves the corresponding config stanza within a [section]
+        $sectionpos = array_search("[" . $section . "]", $configs) + 1;
         $len = count($configs);
-        while(startsWith($configs[$sectionpos],$configs) === false && $sectionpos <= ($len) ) {
+        while(startsWith($configs[$sectionpos],$key."=") === false && $sectionpos <= ($len) ) {
                 if (startsWith($configs[$sectionpos],"[")) {
                         return null;
                 }
                 $sectionpos++;
         }
 
-        return substr($configs[$sectionpos], strlen($) + 1);
+        return substr($configs[$sectionpos], strlen($key) + 1);
 }
 
+/*
 function getGitVersion(){
 	// retrieves the current Git version of the dashboard, if available
 	if (file_exists(".git")) {
