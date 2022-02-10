@@ -66,7 +66,30 @@ include "version.php";
       ?>
     </div>
   </div>
-
+  <!-- Footer -->
+  <footer class="footer-copyright">
+    <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
+      <div class="container-fluid">
+        <span class="float:left;">
+          <?php
+            $lastReload = new DateTime();
+            $lastReload->setTimezone(new DateTimeZone(TIMEZONE));
+              echo "Direqwolf Dashboard v.".VERSION." | Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (".TIMEZONE.")";
+            $time = microtime();
+            $time = explode(' ', $time);
+            $time = $time[1] + $time[0];
+            $finish = $time;
+            $total_time = round(($finish - $start), 4);
+              echo '<!--Page generated in '.$total_time.' seconds.-->';
+          ?>
+        </span>
+        <span class="float:right;">
+          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https:g4nab.co.uk">g4nab.co.uk</a>.</strong> All rights reserved.
+        </span>
+      </div>
+    </span>
+  </footer>
+  
 </html>
 
 
