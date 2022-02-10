@@ -29,29 +29,7 @@ include "include/functions.php";
 //include "version.php";
 
 ?>
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Direwolf Dashboard - fetch the dashboard parameters here</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="log.php">Log</a>
-          <li class="nav-item">
-            <a class="nav-link" href="">Initialise (not yet operational)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" Contact details here</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
+
 <body>
 
   <!-- Navigation -->
@@ -65,17 +43,12 @@ include "include/functions.php";
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="log.php">Log</a>
-          <li class="nav-item">
-            <a class="nav-link" href="">Initialise (not yet operational)</a>
-          </li>
+          </li>          
           <li class="nav-item">
             <a class="nav-link" href="mailto:g4nab.ne63@gmail.com">Contact</a>
           </li>
         </ul>
-      </div>
+      </div
     </div>
   </nav>
 
@@ -86,7 +59,7 @@ include "include/functions.php";
       <?php
         include "include/sysinfo.php";
         include "include/disk.php";
-        include "include/init.php";
+        include "include/log.php";
       ?>
     </div>
   </div>
