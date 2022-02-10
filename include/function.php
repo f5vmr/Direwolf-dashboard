@@ -2,7 +2,8 @@
 
 function getDWConfig() {
         // loads DW.conf into array for further use
-        $conf = file(DWCONFPATH."/".DWCONFFILENAME);
+//        $conf = file(DWCONFPATH."/".DWCONFFILENAME);
+	$conf= "read";
 	echo "configuration file open";
 /*        if ($configs = fopen(DWCONFPATH."/".DWCONFFILENAME, 'r')) {
                 while ($config = fgets($configs)) {
