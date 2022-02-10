@@ -31,6 +31,7 @@ include "version.php";
  </head>
  
  <!-- Navigation -->
+ <body>
   
  <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
@@ -57,7 +58,7 @@ include "version.php";
   </nav>
 
 <!-- Page content -->
-  
+ 
   <div class="container-fluid">
     <div class="row">
       <?php
@@ -66,7 +67,8 @@ include "version.php";
       ?>
     </div>
   </div>
-  <!-- Footer -->
+ 
+    <!-- Footer -->
   <footer class="footer-copyright">
     <span class="navbar navbar-dark bg-primary fixed-bottom text-muted">
       <div class="container-fluid">
@@ -89,7 +91,7 @@ include "version.php";
       </div>
     </span>
   </footer>
-  
+  </body>
 </html>
 
 
