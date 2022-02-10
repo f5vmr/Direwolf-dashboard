@@ -2,30 +2,28 @@
 
 function getDWConfig() {
         // loads DW.conf into array for further use
-        $conf = file(DWCONFPATH."/".DWCONFFILENAME);
-	$conf= "read";
-	echo "configuration file open";
+        $conf = array();
         if ($configs = fopen(DWCONFPATH."/".DWCONFFILENAME, 'r')) {
                 while ($config = fgets($configs)) {
                         array_push($conf, trim ( $config, " \t\n\r\0\x0B"));
                 }
                 fclose($configs);
-        } 
+        }
         return $conf;
 }
 /*
-function getConfigItem($section, $key, $configs) {
-        // retrieves the corresponding config stanza within a [section]
-        $sectionpos = array_search("[" . $section . "]", $configs) + 1;
+function getConfigItem($section, $configs) {
+        // retrieves the corresponding callsign        
+	$sectionpos = array_search($section, $configs) + 1;
         $len = count($configs);
-        while(startsWith($configs[$sectionpos],$key."=") === false && $sectionpos <= ($len) ) {
+        while(startsWith($configs[$sectionpos],$configs) === false && $sectionpos <= ($len) ) {
                 if (startsWith($configs[$sectionpos],"[")) {
                         return null;
                 }
                 $sectionpos++;
         }
 
-        return substr($configs[$sectionpos], strlen($key) + 1);
+        return substr($configs[$sectionpos], strlen($) + 1);
 }
 
 function getGitVersion(){
