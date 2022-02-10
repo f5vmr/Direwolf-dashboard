@@ -20,13 +20,13 @@ $start = $time; */
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 include "config/config.php";
-  echo <p>config</p>;
+  print "config";
 include "include/tools.php";
-  echo <p>tools</p>;
+  print "tools";
 include "include/functions.php";
-  echo <p>functions</p>;
+  print "functions";
 include "include/init.php";
-  echo <p>initialise</p>;
+  print "initialise";
 //include "version.php";
 
 ?>
