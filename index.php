@@ -1,17 +1,4 @@
-<?php
-$time = microtime();
-$time = explode(' ', $time);
-$time = $time[1] + $time[0];
-$start = $time;
-header("Cache-Control: no-cache, must-revalidate");
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
-include "config/config.php";
-include "include/tools.php";
-include "include/functions.php";
-include "include/init.php";
-include "version.php";
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +12,20 @@ include "version.php";
   <title>Direwolf Dashboard</title>
   <link rel="stylesheet" href="include/style.css" 
 </head>
+ <?php
+$time = microtime();
+$time = explode(' ', $time);
+$time = $time[1] + $time[0];
+$start = $time;
+header("Cache-Control: no-cache, must-revalidate");
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+include "config/config.php";
+include "include/tools.php";
+include "include/functions.php";
+include "include/init.php";
+include "version.php";
+
+?>
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
       <a class="navbar-brand" href="#">Direwolf Dashboard - fetch the dashboard parameters here</a>
