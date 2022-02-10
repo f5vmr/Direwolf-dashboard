@@ -26,7 +26,7 @@ include "include/init.php";
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
   <title>Direwolf Dashboard</title>
-  <link rel="stylesheet" href="include/bootstrap.css" 
+  <link rel="stylesheet" href="include/style.css" 
 </head>
 </html>
 
