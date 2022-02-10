@@ -23,7 +23,7 @@ include "config/config.php";
 include "include/tools.php";
 include "include/functions.php";
 include "include/init.php";
-include "version.php";
+//include "version.php";
 
 ?>
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
