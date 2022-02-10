@@ -13,6 +13,5 @@ include "include/init.php";
 /*include "version.php";
 */
 echo "test1";
-echo $DWLOGPATH;
 
 ?>
