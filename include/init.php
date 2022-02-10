@@ -1,6 +1,6 @@
 <?php
 echo "testing init.php"
-//$configs = getDWConfig();
+$configs = getDWConfig();
 /*if (!defined("TIMEZONE"))
     define("TIMEZONE", "UTC");
 
