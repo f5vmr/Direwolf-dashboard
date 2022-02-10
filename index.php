@@ -16,7 +16,6 @@ include "include/init.php";
 /*include "version.php";
 */
 ?>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
