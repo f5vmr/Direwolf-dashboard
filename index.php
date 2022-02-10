@@ -26,6 +26,7 @@ echo "test1";
   <title>Direwolf Dashboard for APRS<?php //echo getConfigItem(MYCALL, "MYCALL", $configs); ?></title>
   <link rel="stylesheet" href="include/bootstrap.css" 
 </head>
+  </html>
 
 <!--
 <body>
