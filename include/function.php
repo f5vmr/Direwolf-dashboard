@@ -14,18 +14,18 @@ function getDWConfig() {
         return $conf;
 }
 
-function getConfigItem($section, $key, $configs) {
+function getConfigItem($key, $configs) {
         // retrieves the corresponding config stanza within a config file
-        $sectionpos = array_search($section, $configs) + 1;
+        $pos = array_search($configs) + 1;
         $len = count($configs);
-        while(startsWith($configs[$sectionpos],$key." ") === false && $sectionpos <= ($len) ) {
-                if (startsWith($configs[$sectionpos],"[")) {
+        while(startsWith($configs[$pos],$key." ") === false && $pos <= ($len) ) {
+                if (startsWith($configs[$pos]," ")) {
                         return null;
                 }
                 $sectionpos++;
         }
 
-        return substr($configs[$sectionpos], strlen($key) + 1);
+        return substr($configs[$pos], strlen($key) + 1);
 }
 /*
 function getGitVersion(){
