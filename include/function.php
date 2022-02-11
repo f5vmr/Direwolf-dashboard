@@ -15,10 +15,10 @@ function getDWConfig() {
 }
 
 function getConfigItem($section, $key, $configs) {
-        // retrieves the corresponding config stanza within a [section]
+        // retrieves the corresponding config stanza within a config file
         $sectionpos = array_search($section, $configs) + 1;
         $len = count($configs);
-        while(startsWith($configs[$sectionpos],$key."=") === false && $sectionpos <= ($len) ) {
+        while(startsWith($configs[$sectionpos],$key." ") === false && $sectionpos <= ($len) ) {
                 if (startsWith($configs[$sectionpos],"[")) {
                         return null;
                 }
