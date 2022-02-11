@@ -3,21 +3,23 @@
 function getDWConfig() {
         // loads DW.conf into array for further use
         $conf = array();
-        if ($configs = fopen(DWCONFPATH."/".DWCONFFILENAME, 'r')) {
-                while ($config = fgets($configs)) {
+        if ($configs = fopen(DWCONFPATH."/".DWCONFFILENAME, "r")) {
+                while ($config = fgets($configs)) !== false {
                         array_push($conf, trim ( $config, " \t\n\r\0\x0B"));
                 }
                 fclose($configs);
-        }
+        } else {
+		echo "error";
+	}
         return $conf;
 }
 
-
-function getConfigItem($section, $key, $configs) {
+/*
+function getConfigItem($section, $configs) {
         // retrieves the corresponding config stanza within a [section]
-        $sectionpos = array_search("[" . $section . "]", $configs) + 1;
+        $sectionpos = array_search($section, $configs) + 1;
         $len = count($configs);
-        while(startsWith($configs[$sectionpos],$key."=") === false && $sectionpos <= ($len) ) {
+        while(startsWith($configs[$sectionpos]) === false && $sectionpos <= ($len) ) {
                 if (startsWith($configs[$sectionpos],"[")) {
                         return null;
                 }
@@ -26,7 +28,7 @@ function getConfigItem($section, $key, $configs) {
 
         return substr($configs[$sectionpos], strlen($key) + 1);
 }
-
+*/
 /*
 function getGitVersion(){
 	// retrieves the current Git version of the dashboard, if available
