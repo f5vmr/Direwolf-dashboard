@@ -2,7 +2,7 @@
 $configs = getDWConfig();
 if (!defined("TIMEZONE"))
     define("TIMEZONE", "UTC");
-echo $configs;
+print $configs;
 $logLines = getDWLog();
-echo $logLines;
+print $logLines;
 ?>
