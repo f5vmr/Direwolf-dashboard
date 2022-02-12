@@ -7,7 +7,8 @@ function getDWConfig() {
                 while ($config = fgets($configs)) !== false {
                         array_push($conf, trim ( $config, " \t\n\r\0\x0B"));
                 }
-                fclose($configs);
+echo "config file found";
+		fclose($configs);
         } else {
 		echo "error";
 	}
@@ -45,6 +46,7 @@ function getDWLog() {
                         array_push($logLines, $logLine);
                 }
                 fclose($log);
+		echo "Log File found";
         }
         return $logLines;
 }
