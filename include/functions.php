@@ -27,7 +27,6 @@ function getConfigItem($key, $configs) {
 
         return substr($configs[$pos], strlen($key) + 1);
 }
-/*
 function getGitVersion(){
 	// retrieves the current Git version of the dashboard, if available
 	if (file_exists(".git")) {
@@ -37,7 +36,7 @@ function getGitVersion(){
 		return 'GitID unknown';
 	}
 }
-*/
+
 function getDWLog() {
 	// retrieves the current Direwolf log file
         $logLines = array();
