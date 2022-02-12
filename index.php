@@ -7,9 +7,13 @@ $start = $time;
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 include "config/config.php";
+echo "Done Config";
 include "include/init.php";
+echo "Done Init";
 include "include/tools.php";
+echo "Done Tools";
 include "include/functions.php";
+echo "Done FUnctions";
 //include "version.php";
 ?>
 <!DOCTYPE html>
