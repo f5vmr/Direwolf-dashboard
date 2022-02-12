@@ -22,7 +22,7 @@ include "include/init.php";
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
-  <title>Direwolf Dashboard for <?php echo getConfigItem("MYCALL",$configs);?></title>
+  <title>Direwolf Dashboard for <?php //echo getConfigItem("MYCALL",$configs);?></title>
   <link rel="stylesheet" href="include/style.css"> 
 </head>
  
@@ -32,7 +32,7 @@ include "include/init.php";
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php echo getConfigItem("MYCALL",$configs);?></a>
+      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php// echo getConfigItem("MYCALL",$configs);?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
