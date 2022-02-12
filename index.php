@@ -7,15 +7,11 @@ $start = $time;
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 include "config/config.php";
-print "Done Config\n";
 include "include/tools.php";
-print "Done Tools\n";
 include "include/functions.php";
-print "Done Functions\n";
 
 //include "version.php";
 include "include/init.php";
-print "Done Init\n";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +22,7 @@ print "Done Init\n";
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
-  <title>Direwolf Dashboard for G4NAB </title>
+  <title>Direwolf Dashboard for <?php echo getConfigItem("MYCALL",$configs);?></title>
   <link rel="stylesheet" href="include/style.css"> 
 </head>
  
@@ -36,7 +32,7 @@ print "Done Init\n";
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Direwolf  Dashboard for </a>
+      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php echo getConfigItem("MYCALL",$configs);?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
