@@ -5,8 +5,13 @@ function getDWConfig() {
         $conf = array();
 	
         $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
-                while ($config = fgets($configs)) {
-                        array_push($conf, trim( $config, " \t\n\r\0\x0B"): $config);
+		
+                if ($configs) {
+		 while (($line = fgets($configs)) !== false) 
+		 {
+        // process the line read.
+    		}	
+                        array_push($conf, trim( $line, " \t\n\r\0\x0B"));
                 }
 		fclose($configs);
 	}
