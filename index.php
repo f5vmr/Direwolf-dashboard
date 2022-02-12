@@ -7,15 +7,15 @@ $start = $time;
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 include "config/config.php";
-print "Done Config";
+print "Done Config\n";
 include "include/tools.php";
-print "Done Tools";
+print "Done Tools\n";
 include "include/functions.php";
-print "Done Functions";
+print "Done Functions\n";
 
 //include "version.php";
 include "include/init.php";
-print "Done Init";
+print "Done Init\n";
 ?>
 <!DOCTYPE html>
 <html lang="en">
