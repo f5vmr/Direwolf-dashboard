@@ -3,11 +3,11 @@
 function getDWConfig() {
         // loads DW.conf into array for further use
         $conf = array();
-        $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')
+        $conf = file(DWCONFPATH.DWCONFFILENAME, 'r')
 
 
   
-echo "testing init.php"
+echo "testing init.php "
 		return $conf;
 }
 
