@@ -9,7 +9,6 @@ function getDWConfig()
                         array_push($confLines, $confLine);
                 }
                 fclose($conf);
-		echo "Conf File found";
 		}
 		return $confLines;
 	}
