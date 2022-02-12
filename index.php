@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <meta http-equiv="refresh" content="Refreshing code goes here">
   <title>Direwolf Dashboard for G4NAB </title>
-  <link rel="stylesheet" href="include/style.css" 
+  <link rel="stylesheet" href="include/style.css"> 
 </head>
  <?php 
 $time = microtime();
