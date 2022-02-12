@@ -44,7 +44,7 @@ function getDWLog() {
                         array_push($logLines, $logLine);
                 }
                 fclose($log);
-		echo "Log File found";
+		
         }
         return $logLines;
 }
