@@ -16,9 +16,9 @@ function getDWConfig()
 	
 
 function getConfigItem($key, $configs) {
-        /* retrieves the corresponding config stanza within a config file
+        /* retrieves the corresponding config stanza within a config file*/
         $pos = array_search($configs) + 1;
-        $len = count($configs);
+        $len = count($configs); /*
         while(startsWith($configs[$pos],$key." ") === false && $pos <= ($len) ) {
                 if (startsWith($configs[$pos]," ")) {
                         return null;
