@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="Refreshing code goes here">
-  <title>Direwolf Dashboard for <?php echo getDWConfig(); echo "G4NAB"; ?> </title>
+  <title>Direwolf Dashboard for <?php echo getConfigItem("MYCALL", $config); echo "G4NAB"; ?> </title>
   <link rel="stylesheet" href="include/style.css" 
 </head>
  <?php 
