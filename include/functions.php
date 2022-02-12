@@ -1,6 +1,7 @@
 <?php
 
-function getDWConfig() {
+function getDWConfig() 
+	{
         // loads DW.conf into array for further use
         $confLines = array();
         if ($conf = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
@@ -9,8 +10,9 @@ function getDWConfig() {
                 }
                 fclose($conf);
 		echo "Conf File found";
+		}
 		return $conf;
-}
+	}
 	
 
 function getConfigItem($key, $configs) {
