@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta http-equiv="refresh" content="Refreshing code goes here">
+  <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
   <title>Direwolf Dashboard for G4NAB </title>
   <link rel="stylesheet" href="include/style.css"> 
 </head>
