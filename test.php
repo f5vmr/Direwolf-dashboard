@@ -1,8 +1,7 @@
 <?php
 include "include/functions.php";
 include "include/tools.php";
-$confLines = getDWConfig();
-$array_length = count($confLines);
+$array_length = count(getDWConfig());
 $i=0;
 while ($i < $array_length) {
  echo confLines[$i] . "<br />";
