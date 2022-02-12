@@ -1,7 +1,7 @@
 <?php
 
 function getDWConfig() {
-        // loads DW.conf into array for further use
+        /* loads DW.conf into array for further use
         $conf = file(DWCONFPATH.DWCONFFILENAME, 'r');
 	echo conf[0];
 	echo conf[1];
