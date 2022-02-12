@@ -23,7 +23,7 @@ include "config/config.php";
   
 include "include/tools.php";
  
-include "include/function.php";
+include "include/functions.php";
   
 
 //include "version.php";
