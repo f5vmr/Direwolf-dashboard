@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="Refreshing code goes here">
-  <title>Direwolf Dashboard for <?php echo getConfigItem("MYCALL", $config); echo "G4NAB"; ?> </title>
+  <title>Direwolf Dashboard for G4NAB </title>
   <link rel="stylesheet" href="include/style.css" 
 </head>
  <?php 
@@ -35,7 +35,7 @@ include "include/function.php";
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php echo "G4NAB"; ?><?php //echo getConfigItem("MYCALL", $configs); ?></a>
+      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php echo "G4NAB"; ?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
