@@ -21,7 +21,7 @@ include "version.php";
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
-  <title>Direwolf Dashboard for <?php echo getConfigItem(MYCALL,$confLines);?></title>
+  <title>Direwolf Dashboard for <?php// echo getConfigItem(MYCALL,$confLines);?></title>
   <link rel="stylesheet" href="include/style.css"> 
 </head>
  
@@ -31,7 +31,7 @@ include "version.php";
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php echo getConfigItem(MYCALL,$confLines);?></a>
+      <a class="navbar-brand" href="#">Direwolf  Dashboard for <?php// echo getConfigItem(MYCALL,$confLines);?></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
