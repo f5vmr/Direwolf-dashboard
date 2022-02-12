@@ -14,18 +14,18 @@ function getDWConfig()
 	}
 	
 
-function getConfigItem($key, $configs) {
+function getConfigItem($key, $confLines) {
         /* retrieves the corresponding config stanza within a config file*/
-        $pos = array_search($configs) + 1;
-        $len = count($configs); /*
-        while(startsWith($configs[$pos],$key." ") === false && $pos <= ($len) ) {
+        $pos = array_search($confLines) + 1;
+        $len = count($confLines); 
+        while(startsWith($conflines[$pos],$key) === false && $pos <= ($len) ) {
                 if (startsWith($configs[$pos]," ")) {
                         return null;
                 }
                 $sectionpos++;
         }
 */
-        return substr($configs[$pos], strlen($configs) + 1);
+        return substr($confLines[$pos], strlen($confLines) + 1);
 }
 function getGitVersion(){
 	// retrieves the current Git version of the dashboard, if available
