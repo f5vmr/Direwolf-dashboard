@@ -21,7 +21,7 @@ include "version.php";
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
-  <title>Direwolf Dashboard for <?php //echo getConfigItem(MYCALL,$confLines);?></title>
+  <title>Direwolf Dashboard for <?php echo getConfigItem(MYCALL,$confLines);?></title>
   <link rel="stylesheet" href="include/style.css"> 
 </head>
  
