@@ -3,7 +3,7 @@
 function getDWConfig() {
         // loads DW.conf into array for further use
         $conf = array();
-        $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) 
+        $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')
 /*		{
                 if ($configs) {
 		 while (($line = fgets($configs)) !== false) 
