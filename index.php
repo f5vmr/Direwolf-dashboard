@@ -53,26 +53,25 @@ include "version.php";
       ?>
     </div>
   </div>
-<!--  <div class="container-fluid">
-    <div class="row">
-      <div class="col-4">
-        
-      </div>
-      <div class="col-8">
-        
-      </div>
+<?php
+?>
+  <div class="card">
+    <div class="card-header text-center">
+      Direwolf System Logs (<?php echo TIMEZONE; ?>) <br /> Latest log line first | Screen refreshes every <strong> <?php echo REFRESHAFTER; ?> </strong> seconds
     </div>
+    <pre class="pre-scrollable" style="max-height: 80vh">
+      <code>
+<?php
+	$logLines = getDWLog();
+	$reverseLogLines = $logLines;
+	array_multisort($reverseLogLines,SORT_DESC);
+	foreach ($reverseLogLines as $logLine) {
+		echo $logLine;
+	}
+?>
+      </code>
+    </pre>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-   
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    
-  </div>-->
  
   <footer class="footer-copyright">
     <div class="container-fluid">
