@@ -6,8 +6,4 @@ if (!defined("TIMEZONE"))
 print $configs;
 */
 $logLines = getDWLog();
-print $logLines;
-
-
-
 ?>
