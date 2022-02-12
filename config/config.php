@@ -7,6 +7,7 @@ define("DWCONFPATH", "/etc/direwolf");
 define("DWCONFFILENAME", "direwolf.conf");
 define("MYCALL", "MYCALL");
 define("DWLINKPATH", "/usr/bin");
+define("LOGICSECTION", "0L");
 define("TIMEZONE", "UK/London");
 define("REFRESHAFTER", "10");
 define("SHOWPROGRESSBARS", "on");
