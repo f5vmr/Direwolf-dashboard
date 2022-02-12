@@ -11,7 +11,7 @@ function getDWConfig()
                 fclose($conf);
 		echo "Conf File found";
 		}
-		return $conf;
+		return $confLines;
 	}
 	
 
