@@ -19,12 +19,11 @@ function getConfigItem($key, $confLines) {
         $pos = array_search($confLines) + 1;
         $len = count($confLines); 
         while(startsWith($conflines[$pos],$key) === false && $pos <= ($len) ) {
-                if (startsWith($configs[$pos]," ")) {
+                if (startsWith($conflines[$pos]," ")) {
                         return null;
                 }
                 $sectionpos++;
         }
-*/
         return substr($confLines[$pos], strlen($confLines) + 1);
 }
 function getGitVersion(){
