@@ -4,16 +4,7 @@ function getDWConfig() {
         // loads DW.conf into array for further use
         $conf = array();
         $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')
-/*		{
-                if ($configs) {
-		 while (($line = fgets($configs)) !== false) 
-		 {
-        // process the line read.
-    		}	
-                        array_push($conf, trim( $line, " \t\n\r\0\x0B"));
-                }
-		fclose($configs);
-*/	
+
 
   
 echo "testing init.php"
