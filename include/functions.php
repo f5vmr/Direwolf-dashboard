@@ -6,7 +6,7 @@ function getDWConfig() {
 	
         $configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
                 while ($config = fgets($configs)) {
-                        array_push($conf, trim( $config, " \t\n\r\0\x0B"));
+                        array_push($conf, trim( $config, " \t\n\r\0\x0B"): string);
                 }
 		fclose($configs);
 	}
