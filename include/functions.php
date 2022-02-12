@@ -4,7 +4,7 @@ function getDWConfig()
 	{
         // loads DW.conf into array for further use
         $confLines = array();
-        if ($conf = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
+        if ($conf = fopen(DWCONFPATH."/".DWCONFFILENAME, 'r')) {
                 while ($confLine = fgets($conf)) {
                         array_push($confLines, $confLine);
                 }
@@ -39,7 +39,7 @@ function getGitVersion(){
 function getDWLog() {
 	// retrieves the current Direwolf log file
         $logLines = array();
-        if ($log = fopen(DWLOGPATH.DWLOGPREFIX, 'r')) {
+        if ($log = fopen(DWLOGPATH."/".DWLOGPREFIX, 'r')) {
                 while ($logLine = fgets($log)) {
                         array_push($logLines, $logLine);
                 }
