@@ -10,7 +10,7 @@ include "config/config.php";
 include "include/init.php";
 include "include/tools.php";
 include "include/functions.php";
-include "version.php";
+//include "version.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
