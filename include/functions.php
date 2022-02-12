@@ -13,8 +13,8 @@ function getDWConfig() {
                         array_push($conf, trim( $line, " \t\n\r\0\x0B"));
                 }
 		fclose($configs);
-	}
-  */
+*/	}
+  
 echo "testing init.php"
 		return $conf;
 }
