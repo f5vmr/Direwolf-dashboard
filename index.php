@@ -96,7 +96,7 @@ include "include/functions.php";
           ?>
         </span>
         <span class="float:right;">
-          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https:g4nab.co.uk">g4nab.co.uk</a>.</strong> All rights reserved.
+          <strong>Copyright &copy; <script>document.write( new Date().getFullYear() );</script> <a href="https://g4nab.co.uk">g4nab.co.uk</a>.</strong> All rights reserved.
         </span>
       
       </span>
