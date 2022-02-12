@@ -1,9 +1,12 @@
 <?php 
-$configs = getDWConfig();
+/*$configs = getDWConfig();
 if (!defined("TIMEZONE"))
     define("TIMEZONE", "UTC");
 print $configs;
-/*$logLines = getDWLog();
-print $logLines;
 */
+$logLines = getDWLog();
+print $logLines;
+
+
+
 ?>
