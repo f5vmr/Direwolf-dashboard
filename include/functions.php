@@ -1,12 +1,14 @@
 <?php
 
 function getDWConfig() {
-        /* loads DW.conf into array for further use
-        $conf = file(DWCONFPATH.DWCONFFILENAME, 'r');
-	echo conf[0];
-	echo conf[1];
-	echo conf[141];
-	fclose($conf); */
+        // loads DW.conf into array for further use
+        $confLines = array();
+        if ($conf = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
+                while ($confLine = fgets($conf)) {
+                        array_push($confLines, $confLine);
+                }
+                fclose($conf);
+		echo "Conf File found";
 		return $conf;
 }
 	
