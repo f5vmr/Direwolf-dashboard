@@ -13,6 +13,6 @@ Regards
 
 Chris G4NAB. (Ex-F5VMR)
 
-Duue acknowledgement and thanks go to WB2OSZ for his original contribution and the Packet-radio.net, KC1AWV for most of the code help from the SVXLink Dashboard, and finally YD0NXX for the soundcard modifications.
+Due acknowledgement and thanks go to WB2OSZ for his original contribution and the Packet-radio.net, KC1AWV for most of the code help from the SVXLink Dashboard, and finally YD0NXX for the soundcard modifications.
 
 
