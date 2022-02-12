@@ -3,12 +3,13 @@
 function getDWConfig() {
         // loads DW.conf into array for further use
         $conf = array();
+	/*
         if ($configs = fopen(DWCONFPATH.DWCONFFILENAME, 'r')) {
                 while ($config = fgets($configs)) {
                         array_push($conf, trim ( $config, " \t\n\r\0\x0B"));
                 }
 		fclose($configs);
-	}
+	}*/
         return $conf;
 }
 
