@@ -1,5 +1,5 @@
 <?php 
-$configs = getDWConfig();
+$confLines = getDWConfig();
 
 if (!defined("TIMEZONE"))
     define("TIMEZONE", "UTC");
